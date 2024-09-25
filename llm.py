@@ -12,7 +12,7 @@ if os.path.exists(file_path):
 else:
     secrets = st.secrets
 
-OPENROUTER_API_KEY = secrets['OPENROUTER']['OPENROUTER_API_KEY']
+OPENROUTER_API_KEY = secrets['OPENROUTER']["OPENROUTER_API_KEY"]
 
 def answer(system_prompt, user_prompt):
     msg = [
